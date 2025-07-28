@@ -1,0 +1,68 @@
+Reset and base layout
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+.container {
+  text-align: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 90%;
+}
+
+/* Weather output area */
+#weather-output {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Search form */
+#search-form {
+  margin-bottom: 1rem;
+}
+
+#city-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70%;
+  max-width: 250px;
+  box-sizing: border-box;
+}
+
+#search-form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#search-form button:hover {
+  background-color: #3367d6;
+}
+
+/* Weather icons */
+#weather-output img {
+  width: 80px;
+  height: 80px;
+  margin: 10px 0;
+}
