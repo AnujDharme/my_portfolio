@@ -274,26 +274,3 @@ hr {
   background-color: #555;
   transform: scale(1.1);
 }
-
-/*new added */
-.container {
-  width: 100%;
-  padding: 2rem;
-}
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-@media (max-width: 768px) {
-  .nav {
-    flex-direction: column;
-  }
-}
-
-img, video {
-  max-width: 100%;
-  height: auto;
-}
